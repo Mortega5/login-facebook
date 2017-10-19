@@ -137,6 +137,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         },
         token: String,
       },
+      listeners: {
+        'tap':'_login'
+      },
 
       _largeAndDisconnected: function (logged, sort) {
         return !logged && !sort;
